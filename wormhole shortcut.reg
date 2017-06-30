@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Send via Wormhole\command]
+@="cmd.exe /c \"wormhole send \"%1\"\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Send via Wormhole\command]
+@="cmd.exe /c \"wormhole send \"%1\"\""
